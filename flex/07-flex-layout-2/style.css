@@ -8,22 +8,106 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+
+  font-weight: bold;
+  align-items: center;
+
+  justify-content: flex-start;
+  padding-left: 20px;
+  font-size: 20px;
+  display: flex;
+  
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
+  
+  
+  
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+
+  
+}
+
+
+.content{
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  
+  
+
+ 
+}
+
+.cards-content{
+
+  display: flex;
+  flex-direction: row;
+  
+
+  flex-wrap: wrap;
+
+  
+
+
+  
+
+ 
+}
+
+.card{
+  padding: 10px;
+  margin: 10px;
+  font-size: 10px;
+  height: 100px;
+  width: 200px;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+a{
+
+  text-decoration: none;
+  color: white;
+}
+ul{
+
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-shrink: 0;
+  
+}
+li{
+  margin-bottom: 4px;
 }
